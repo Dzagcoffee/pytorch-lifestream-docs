@@ -6,13 +6,12 @@ const config = {
   tagline: 'Ut enim ad minim veniam, quis nostrud exercitation ullamco.',
   favicon: 'img/logo.svg',
 
-  url: 'https://your-docusaurus-test-site.com', // !
-  baseUrl: '/', // !
-  // deploymentBranch: 'gh-pages', // !
-  // trailingSlash: false, // !
+  url: 'https://Dzagcoffee.github.io',
+  baseUrl: '/pytorch-lifestream-docs',
+  trailingSlash: false,
 
   organizationName: 'SBER AI Lab',
-  projectName: 'ptls.docs',
+  projectName: 'pytorch-lifestream-docs',
 
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
