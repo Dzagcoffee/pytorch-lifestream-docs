@@ -1,0 +1,92 @@
+@font-face {
+  font-family: 'Source Sans';
+  src: url('/static/fonts/SourceSans3-VariableFont_wght.ttf');
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+/* GLOBAL LAYOUT */
+
+html {
+  font-family: "Source Sans", sans-serif;
+  font-size: 1.05rem;
+  cursor: default;
+}
+
+a:hover, a:visited, a:active, a:focus {
+  text-decoration: none;
+}
+
+.container {
+  width: 1200px;
+  max-width: 80%;
+}
+
+/* NAVBAR */
+.navbar {
+  height: 70px;
+  --ifm-navbar-height: 70px;
+}
+
+.navbar__logo {
+  width: 60px;
+  height: 40px;
+  text-align: center;
+}
+
+.navbar__title {
+  font-size: 1.5rem;
+}
+
+.navbar__item.navbar__link, .dropdown {
+  font-size: 1.1em;
+  margin-left: 30px;
+}
+
+/* MAIN PAGE */
+.hero {
+  background-color: unset;
+  margin-bottom: 10em;
+}
+
+.main-page {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.main-page-arrow {
+  position: absolute;
+  bottom: 80px;
+  left: 0;
+  right: 0;
+  cursor: pointer;
+}
+
+/* THEME */
+:root {
+  --ifm-color-primary: #445258;
+  --ifm-color-primary-dark: #3d4a4f;
+  --ifm-color-primary-darker: #3a464b;
+  --ifm-color-primary-darkest: #30393e;
+  --ifm-color-primary-light: #4b5a61;
+  --ifm-color-primary-lighter: #4e5e65;
+  --ifm-color-primary-lightest: #586b72;
+  --ifm-navbar-link-color: #414149;
+  --ifm-font-color-base: #414149;
+  --ifm-hero-text-color: #414149;
+  --ifm-footer-link-hover-color: #6089AF;
+}
+
+.custom-button {
+  background: #445258;
+  transition: background-color 0.3s ease-in-out;
+  border: none;
+}
+
+.custom-button:hover {
+  background: #566A72;
+}
