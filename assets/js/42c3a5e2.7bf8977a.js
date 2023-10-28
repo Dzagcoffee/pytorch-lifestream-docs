@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkptls_docs=self.webpackChunkptls_docs||[]).push([[581],{3580:s=>{s.exports=JSON.parse('{"permalink":"/pytorch-lifestream-docs/blog","page":1,"postsPerPage":10,"totalPages":1,"totalCount":2,"blogDescription":"Blog","blogTitle":"Blog"}')}}]);
