@@ -1,1 +1,1 @@
-# (pytorch-lifestream-docs)[https://dzagcoffee.github.io/pytorch-lifestream-docs/]
+# [pytorch-lifestream-docs](https://dzagcoffee.github.io/pytorch-lifestream-docs/)
